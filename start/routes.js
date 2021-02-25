@@ -18,3 +18,6 @@ const Route = use('Route')
 
 Route.on('/').render('welcome')
 Route.post('/users/register', 'UserController.register')
+Route.post('/users/login', 'UserController.login')
+Route.post('/users/profile', 'UserController.profile')
+Route.post('/users/list', 'UserController.list')
